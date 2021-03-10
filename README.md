@@ -1,4 +1,4 @@
-# weather-app
+# Weather React App
 
 App to retrieve weather information
 
