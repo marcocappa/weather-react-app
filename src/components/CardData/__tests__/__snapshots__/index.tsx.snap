@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardData /> should match snapshot 1`] = `
+<div
+  className="card-data"
+>
+  <div>
+    <p>
+      Temperature: 
+      <span>
+        8.9
+         Celcius
+      </span>
+    </p>
+    <p>
+      Apparent temperature: 
+      <span>
+        9
+         Celcius
+      </span>
+    </p>
+    <p>
+      Relative humidity: 
+      <span>
+        89
+        %
+      </span>
+    </p>
+    <p>
+      Weather description:
+      <span>
+        Overcast clouds
+      </span>
+    </p>
+  </div>
+  <div>
+    <p>
+      Last observation time: 
+      <span>
+         2021-03-10 18:06
+      </span>
+    </p>
+    <p>
+      Timezone: 
+      <span>
+        Europe/London
+      </span>
+    </p>
+    <p>
+      Pressure: 
+      <span>
+        998.9
+         mb
+      </span>
+    </p>
+    <p>
+      Wind Speed: 
+      <span>
+        2.68
+         m/s
+      </span>
+    </p>
+    <p>
+      Wind Direction: 
+      <span>
+        200
+         Degrees
+      </span>
+    </p>
+  </div>
+</div>
+`;

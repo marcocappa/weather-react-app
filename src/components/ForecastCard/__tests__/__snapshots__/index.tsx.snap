@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Forecast /> should match snapshot 1`] = `
+<Fragment>
+  <div
+    className="forecast-card"
+  >
+    <p>
+      loading...
+    </p>
+  </div>
+</Fragment>
+`;

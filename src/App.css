@@ -1,0 +1,104 @@
+nav {
+    margin-bottom: 4rem;
+}
+
+nav a {
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #e3e8ff;
+    border-radius: 6px;
+    background-color: #688ddf;
+    transition: all 0.4s ease;
+}
+
+nav a:hover {
+    color: #f8f9ff;
+    background-color: #3c61af;
+}
+
+.app-container {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 4rem 1rem;
+}
+
+.subheading {
+    font-weight: 300;
+    max-width: 40%;
+}
+
+.subheading span {
+    font-weight: 600;
+}
+
+.card-data {
+    border: 1px solid #c0caff;
+    border-radius: 6px;
+    background-color: #e7edff;
+    display: flex;
+}
+
+.card-data div {
+    padding: 1rem;
+    flex: 1;
+}
+
+.card-data div p {
+    font-weight: 300;
+}
+
+.card-data div p:first-child {
+    margin-top: 0;
+}
+
+.card-data div p:last-child {
+    margin-bottom: 0;
+}
+
+.card-data div p span {
+    font-weight: 600;
+}
+
+.card-data div:last-child {
+    border-left: 1px solid #c0caff;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.forecast-card {
+    padding: 1rem;
+    border: 1px solid #c0caff;
+    border-radius: 6px;
+    background-color: #e7edff;
+    margin: 0 1rem 1rem;
+    min-width: 12.5rem;
+}
+
+.forecast-card h3 {
+    margin-top: 0;
+}
+
+.forecast-card p {
+    margin-bottom: 0;
+}
+
+.error {
+    margin: 0;
+    color: #a23c3c;
+}
+
+label {
+    margin: 0 0 1rem 0;
+    display: block;
+}
+
+label input {
+    margin-left: 1rem;
+    height: 28px;
+}
